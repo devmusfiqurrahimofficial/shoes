@@ -15,7 +15,31 @@
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
+        <style>
+          
+            .team-img-2{
+    position: relative;
+    width: 270px;
+    height: 400px;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.img-overlay:hover{
+    opacity: 1;
+    transition: 0.8s;
+}
+        </style>
     </head>
 
     <body class="max-w-[1500px] mx-auto">
@@ -120,7 +144,7 @@
       <!-- benefit section end -->
       <section class="bg-[#19314D] pt-[130px] pb-[130px]">
         <h2 class="text-[45px] font-bold text-center text-white mx-1">What people says about us</h2>
-        <p class="text-[18px] font-normal text-white  text-center mx-1">Here’s what some of our 55,600 customers have to say</p>
+        <p class="text-[18px] font-bold text-white mt-3  text-center mx-1">Here’s what some of our 55,600 customers have to say</p>
         <div class="flex flex-wrap justify-center align-center mt-[150px] mx-1">
             <div class="mx-4">
                 <img src="./image/rev.png" alt="">
@@ -166,5 +190,52 @@
         </div>
        </section>
        <!-- foam and leather -->
+
+       <section class="bg-[#2970B1] pt-[75px] pb-[75px]">
+           <h2 class="text-[45px] font-bold text-center text-white mx-1">How our customers Feel</h2>
+            <p class="text-[18px] font-bold text-white mt-3  text-center mx-1">See the experience before you feel it </p>
+            <div class="flex flex-wrap justify-center align-center mt-[100px] mx-1">
+                <div class="team-img-2 mt-[18px] mx-7 mx-[18px]">
+                    <div>
+                        <img src="./image/customer.png" alt=""class="team-img-1 w-full">
+                    </div>
+        
+                    <div class="img-overlay">
+                        <a href="#" target="_blank"><button class="btn">See more</button></a>
+                    </div>
+                </div>
+                <div class="team-img-2 mt-[18px] mx-7 mx-[18px]">
+                    <div>
+                        <img src="./image/customer1.png" alt=""class="team-img-1 w-full">
+                    </div>
+        
+                    <div class="img-overlay">
+                        <a href="#" target="_blank"><button class="btn">See more</button></a>
+                    </div>
+                </div>
+                <div class="team-img-2 mt-[18px] mx-7 mx-[18px]">
+                    <div>
+                        <img src="./image/customer2.png" alt=""class="team-img-1 w-full">
+                    </div>
+        
+                    <div class="img-overlay">
+                        <a href="#" target="_blank"><button class="btn">See more</button></a>
+                    </div>
+                </div>
+                <div class="team-img-2 mt-[18px] mx-7 mx-[18px]">
+                    <div>
+                        <img src="./image/customer3.png" alt=""class="team-img-1 w-full">
+                    </div>
+        
+                    <div class="img-overlay">
+                        <a href="#" target="_blank"><button class="btn">See more</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-[90px]">
+                    <a class="px-10 py-1 font-semibold border-[2px] border-white text-white rounded-full text-lg " src="#"> FIND YOUR STYLE</a>
+            </div>
+       </section>
+       <!-- customer section end -->
     </body>
 </html>
